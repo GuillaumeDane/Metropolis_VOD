@@ -1,7 +1,4 @@
-*{
-  margin: 0;
-  padding: 0;
-}
+
 
 #logo{
   margin-top: 5px;
@@ -9,8 +6,6 @@
 }
 
 .imgGalery{
-  height: 500px;
-  width: 100%;
 }
 
 #decouvrir{
