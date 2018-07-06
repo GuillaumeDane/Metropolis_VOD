@@ -1,0 +1,18 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+#logo{
+  margin-top: 5px;
+  height: 50px;
+}
+
+.imgGalery{
+  height: 500px;
+  width: 100%;
+}
+
+#decouvrir{
+  height: 150px;
+}
