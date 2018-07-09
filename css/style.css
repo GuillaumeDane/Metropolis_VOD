@@ -1,13 +1,38 @@
+p{
+  color: white;
+}
 
+img{
+  display: block;
+}
 
 #logo{
   margin-top: 5px;
   height: 50px;
 }
 
-.imgGalery{
-}
-
 #decouvrir{
   height: 150px;
+  margin: 0px;
+}
+
+#button-decouvrir{
+  margin-top: 50px;
+}
+
+.cine_block{
+  height: 400px;
+}
+
+.galery-parallax {
+  height: 800px;
+}
+
+.cinema-parallax {
+  height: 400px;
+}
+
+#sortie{
+  height: 200px;
+  padding: 50px;
 }
