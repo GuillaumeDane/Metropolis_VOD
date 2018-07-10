@@ -1,6 +1,7 @@
 
 body
 {
+	min-width: 400px;
 	display: flex;
 	min-height: 100vh;
 	flex-direction: column;
@@ -33,20 +34,15 @@ img
 	height: 50px;
 }
 
-#decouvrir
+#cree_compte
 {
-	height: 150px;
+	height: auto;
 	margin: 0px;
 }
 
-#button-decouvrir
+#button-cree
 {
-	margin-top: 50px;
-}
-
-.cine_block
-{
-	height: 400px;
+	margin: 50px;
 }
 
 .galery-parallax
@@ -54,12 +50,7 @@ img
 	height: 800px;
 }
 
-.cinema-parallax
-{
-	height: 500px;
-}
-
-.hq-parallax
+.size-parallax
 {
 	height: 500px;
 }
