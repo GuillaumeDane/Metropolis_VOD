@@ -1,68 +1,112 @@
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
-    <title></title>
-  </head>
-  <body>
-
-    <header>
-      <nav class="grey darken-4">
-        <div class="nav-wrapper">
-          <a href="#" class="brand-logo"><img id="logo" src="./img/logo.png"></a>
-          <ul id="nav-mobile" class="right hide-on-small-and-down">
-            <li><a class="waves-effect waves-light btn light-blue darken-4">Login</a></li>
-          </ul>
-          <ul id="nav-mobile" class="hide-on-med-and-up">
-            <li><a class="waves-effect waves-light btn-small light-blue darken-4"><i class="material-icons">person</i></a></li>
-          </ul>
-        </div>
-      </nav>
-    </header>
-
-    <div class="galery-parallax parallax-container">
-      <div class="parallax"><img src="img/imgGalery.png"></div>
-    </div>
-
-    <div id="decouvrir" class="row grey darken-3">
-      <div class="center-align"><a id="button-decouvrir" class="waves-effect waves-light btn-large light-blue darken-4">creer mon compte</a></div>
-    </div>
-
-    <div class="cinema-parallax parallax-container">
-      <div class="parallax"><img src="img/red_cinema.png"></div>
-    </div>
-
-    <div id="sortie" class="row grey darken-3">
-      <div class="center-align"><p class="acroche">"Films disponibles 3 mois après leurs sortie au cinema"</p><br>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
-    </div>
-
-    <div class="hq-parallax parallax-container">
-      <div class="parallax"><img src="img/4k_img.png"></div>
-    </div>
-
-    <div id="haute_qualite" class="row grey darken-3">
-      <div class="center-align"><p class="acroche">"VOD disponible en Haute Qualité avec les nouvelles normes HDR du marché. La qualité cinéma à la maison."</p><br>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
-    </div>
-
-    <footer class="page-footer grey darken-4">
-      <div class="container">
-        <div class="row">
-          <div class="col l6 s12">
-            <p></p>
-          </div>
-        </div>
-      </div>
-    </footer>
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
-  <script type="text/javascript" src="js/parallax.js"></script>
-  </body>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/style.css">
+		<title>MetroVOD</title>
+	</head>
+	<body>
+		<header>
+			<nav class="grey darken-4">
+				<div class="nav-wrapper">
+					<a href="#" class="brand-logo"><img id="logo" src="./img/logo.png"></a>
+					<ul id="nav-mobile" class="right hide-on-small-and-down">
+						<li><a class="waves-effect waves-light btn light-blue darken-4">Login</a></li>
+					</ul>
+					<ul id="nav-mobile" class="hide-on-med-and-up">
+						<li>
+							<a class="waves-effect waves-light btn-small light-blue darken-4"><i class="material-icons">person</i></a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+		<div class="galery-parallax parallax-container">
+			<div class="parallax">
+				<img src="img/imgGalery.png">
+			</div>
+		</div>
+		<div id="decouvrir" class="row grey darken-3">
+			<div class="center-align">
+				<a id="button-decouvrir" class="waves-effect waves-light btn-large light-blue darken-4">creer mon compte</a>
+			</div>
+		</div>
+		<div class="cinema-parallax parallax-container">
+			<div class="parallax">
+				<img src="img/red_cinema.png">
+			</div>
+		</div>
+		<div id="sortie" class="row grey darken-3">
+			<div class="center-align">
+				<p class="acroche">
+					"Films disponibles 3 mois après leurs sortie au cinema"
+				</p>
+				<br>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</p>
+			</div>
+		</div>
+		<div class="hq-parallax parallax-container">
+			<div class="parallax">
+				<img src="img/4k_img.png">
+			</div>
+		</div>
+		<div id="haute_qualite" class="row grey darken-3">
+			<div class="center-align">
+				<p class="acroche">
+					"VOD disponible en Haute Qualité avec les nouvelles normes HDR du marché. La qualité cinéma à la maison."
+				</p>
+				<br>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</p>
+			</div>
+		</div>
+		<footer class="page-footer grey darken-4">
+			<div class="container">
+				<div class="row">
+					<div class="col l6 s12">
+						<h5 class="white-text">
+							Contact :
+						</h5>
+						<p class="grey-text text-lighten-4">
+							Lorem m veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						</p>
+					</div>
+					<div class="col l4 offset-l2 s12">
+						<h5 class="white-text">
+							Nous suivre :
+						</h5>
+						<ul>
+							<li>
+								<a class="grey-text text-lighten-3" href="#"><i class="fab fa-facebook-square"></i> http/facebook.com</a>
+							</li>
+							<li>
+								<a class="grey-text text-lighten-3" href="#"><i class="fab fa-twitter"></i> http/twitter.com</a>
+							</li>
+							<li>
+								<a class="grey-text text-lighten-3" href="#"><i class="fab fa-youtube"></i> http/youtube.com</a>
+							</li>
+							<li>
+								<a class="grey-text text-lighten-3" href="#"><i class="fab fa-instagram"></i> http/insta.com</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="footer-copyright">
+				<div class="container">
+					© 2018 Copyright Text
+				</div>
+			</div>
+		</footer>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+		<script type="text/javascript" src="js/parallax.js"></script>
+	</body>
 </html>

@@ -1,69 +1,90 @@
-body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-  }
 
-  main {
-    flex: 1 0 auto;
-  }
-
-p{
-  color: white;
-  font-size: 20px;
+body
+{
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
 }
 
-img{
-  display: block;
+main
+{
+	flex: 1 0 auto;
 }
 
-#logo{
-  margin-top: 5px;
-  height: 50px;
+p
+{
+	color: white;
+	font-size: 20px;
 }
 
-#decouvrir{
-  height: 150px;
-  margin: 0px;
+a
+{
+	font-size: 20px;
 }
 
-#button-decouvrir{
-  margin-top: 50px;
+img
+{
+	display: block;
 }
 
-.cine_block{
-  height: 400px;
+#logo
+{
+	margin-top: 5px;
+	height: 50px;
 }
 
-.galery-parallax {
-  height: 800px;
+#decouvrir
+{
+	height: 150px;
+	margin: 0px;
 }
 
-.cinema-parallax {
-  height: 550px;
+#button-decouvrir
+{
+	margin-top: 50px;
 }
 
-.hq-parallax{
-  height: 550px;
+.cine_block
+{
+	height: 400px;
 }
 
-#sortie{
-  height: auto;
-  padding: 20px 10px;
-  margin: 0px;
+.galery-parallax
+{
+	height: 800px;
 }
 
-#hq{
-  margin: 0px;
-  height: 450px;
+.cinema-parallax
+{
+	height: 500px;
 }
 
-#haute_qualite{
-  height: auto;
-  padding: 20px 10px;
-  margin: 0px;
+.hq-parallax
+{
+	height: 500px;
 }
 
-.acroche{
-  margin: 20px;
+#sortie
+{
+	height: auto;
+	padding: 20px 50px;
+	margin: 0px;
+}
+
+#hq
+{
+	margin: 0px;
+	height: 450px;
+}
+
+#haute_qualite
+{
+	height: auto;
+	padding: 20px 50px;
+	margin: 0px;
+}
+
+.acroche
+{
+	margin: 20px;
 }
