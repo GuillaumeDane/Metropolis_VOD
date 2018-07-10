@@ -1,3 +1,13 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
 p{
   color: white;
   font-size: 20px;
@@ -38,8 +48,8 @@ img{
 }
 
 #sortie{
-  height: 200px;
-  padding: 20px 100px;
+  height: auto;
+  padding: 20px 10px;
   margin: 0px;
 }
 
@@ -49,7 +59,11 @@ img{
 }
 
 #haute_qualite{
-  height: 200px;
-  padding: 20px 100px;
+  height: auto;
+  padding: 20px 10px;
   margin: 0px;
+}
+
+.acroche{
+  margin: 20px;
 }
