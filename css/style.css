@@ -1,5 +1,6 @@
 p{
   color: white;
+  font-size: 20px;
 }
 
 img{
@@ -29,10 +30,26 @@ img{
 }
 
 .cinema-parallax {
-  height: 400px;
+  height: 550px;
+}
+
+.hq-parallax{
+  height: 550px;
 }
 
 #sortie{
   height: 200px;
-  padding: 50px;
+  padding: 20px 100px;
+  margin: 0px;
+}
+
+#hq{
+  margin: 0px;
+  height: 450px;
+}
+
+#haute_qualite{
+  height: 200px;
+  padding: 20px 100px;
+  margin: 0px;
 }
