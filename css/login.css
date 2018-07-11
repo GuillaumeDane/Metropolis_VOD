@@ -6,5 +6,23 @@
 
 #form
 {
-	
+	margin: 0px;
+}
+
+
+.parallax-container
+{
+	height: 250px;
+}
+
+/* ==== Input custom ==== */
+
+.input-field label
+{
+	color: #ffff;
+}
+
+.input-field input + label
+{
+   color: #ffff;
 }
