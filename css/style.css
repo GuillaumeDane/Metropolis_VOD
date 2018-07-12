@@ -1,3 +1,4 @@
+/* ==== READY TO MASTER ==== */
 
 body
 {
@@ -5,11 +6,6 @@ body
 	display: flex;
 	min-height: 100vh;
 	flex-direction: column;
-}
-
-main
-{
-	flex: 1 0 auto;
 }
 
 p
@@ -23,10 +19,13 @@ a
 	font-size: 20px;
 }
 
+/* ==== DIVERS ==== */
+
 img
 {
 	display: block;
 }
+
 
 #logo
 {
@@ -45,15 +44,6 @@ img
 	margin: 50px;
 }
 
-.galery-parallax
-{
-	height: 800px;
-}
-
-.size-parallax
-{
-	height: 500px;
-}
 
 #sortie
 {
@@ -80,9 +70,29 @@ img
 	margin: 20px;
 }
 
+/* ==== PARALLAX ==== */
 
-#form{
+.galery-parallax
+{
+	height: 800px;
+}
+
+.size-parallax
+{
+	height: 500px;
+}
+
+/* ==== FORM ==== */
+
+#form1 ,#form2{
 	width: 100%;
 	margin: 0px;
 	padding: 10px 10px;
+	display: none;
+}
+
+/* ==== FORM CUSTOM COLOR ==== */
+
+.input-field label {
+	color: #ffff;
 }
