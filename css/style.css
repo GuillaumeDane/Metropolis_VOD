@@ -8,14 +8,7 @@ body
 	flex-direction: column;
 }
 
-p
-{
-	color: white;
-	font-size: 20px;
-}
-
-a
-{
+p, a{
 	font-size: 20px;
 }
 
