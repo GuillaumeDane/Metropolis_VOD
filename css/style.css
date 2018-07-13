@@ -1,91 +1,78 @@
 /* ==== READY TO MASTER ==== */
 
-body
-{
-	min-width: 400px;
-	display: flex;
-	min-height: 100vh;
-	flex-direction: column;
+body {
+  min-width: 400px;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
-p, a{
-	font-size: 20px;
+p, a {
+  font-size: 20px;
 }
 
 /* ==== DIVERS ==== */
 
-img
-{
-	display: block;
+img {
+  display: block;
 }
 
-
-#logo
-{
-	margin-top: 5px;
-	height: 50px;
+#logo {
+  margin-top: 5px;
+  height: 50px;
 }
 
-#cree_compte
-{
-	height: auto;
-	margin: 0px;
+#cree_compte {
+  height: auto;
+  margin: 0px;
 }
 
-#button-cree
-{
-	margin: 50px;
+#button-cree {
+  margin: 50px;
 }
 
-
-#sortie
-{
-	height: auto;
-	padding: 20px 50px;
-	margin: 0px;
+#sortie {
+  height: auto;
+  padding: 20px 50px;
+  margin: 0px;
 }
 
-#hq
-{
-	margin: 0px;
-	height: 450px;
+#hq {
+  margin: 0px;
+  height: 450px;
 }
 
-#haute_qualite
-{
-	height: auto;
-	padding: 20px 50px;
-	margin: 0px;
+#haute_qualite {
+  height: auto;
+  padding: 20px 50px;
+  margin: 0px;
 }
 
-.acroche
-{
-	margin: 20px;
+.acroche {
+  margin: 20px;
 }
 
 /* ==== PARALLAX ==== */
 
-.galery-parallax
-{
-	height: 800px;
+.galery-parallax {
+  height: 800px;
 }
 
-.size-parallax
-{
-	height: 500px;
+.size-parallax {
+  height: 500px;
 }
 
 /* ==== FORM ==== */
 
-#form1 ,#form2{
-	width: 100%;
-	margin: 0px;
-	padding: 10px 10px;
-	display: none;
+#form1, #form2 {
+  width: 100%;
+  margin: 0px;
+  padding: 10px 10px;
+  display: none;
 }
 
 /* ==== FORM CUSTOM COLOR ==== */
 
 .input-field label {
-	color: #ffff;
+  color: #ffff;
 }
