@@ -1,28 +1,69 @@
 /* ==== MASTER ==== */
 
-a, p{
+a, p {
   font-size: 20px;
 }
 
-body
-{
-	min-width: 400px;
-	display: flex;
-	min-height: 100vh;
-	flex-direction: column;
+body {
+  min-width: 400px;
+  min-height: 100vh;
+  flex-direction: column;
 }
-
 
 /* ==== OBJETS ==== */
 
-#logo
-{
-	margin-top: 5px;
-	height: 50px;
+#logo {
+  margin-top: 5px;
+  height: 50px;
 }
 
-/* ==== BODY ==== */
+h3 {
+  margin-bottom: 50px;
+}
 
-main{
-  width: 100%
+/* ==== MAIN ==== */
+
+.top {
+  margin: 0px;
+  padding: 20px 40px 30px 40px;
+}
+
+.img_max {
+  max-width: 300px;
+  max-height: 500px;
+  margin: 20px 40px;
+}
+
+.img_max_more {
+  max-width: 500px;
+  max-height: 700px;
+}
+
+.top_3 {
+  margin: 0px;
+  height: auto;
+  padding: 10px;
+}
+
+#film_focus_Avatar {
+  display: none;
+}
+
+.actors {
+  margin: 20px;
+  height: 150px;
+  width: 100px;
+}
+
+.regarder {
+  margin: 20px;
+}
+
+.action {
+  margin: 50px 0px;
+  padding: 30px;
+}
+
+.navigation_style {
+  margin: 0;
 }

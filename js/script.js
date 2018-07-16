@@ -14,6 +14,10 @@ $('#button-cree').click(function(){
       $('#form2').toggle();
       });
 
+$('#Avatar').click(function(){
+      $('#film_focus_Avatar').toggle();
+      });
+
 // Hamburger
 
 $(document).ready(function(){
