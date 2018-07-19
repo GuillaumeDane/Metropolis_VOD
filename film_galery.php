@@ -1,3 +1,36 @@
+<?php
+
+###########################################
+############ PDO-Extension #############
+###########################################
+
+
+$host_name = 'localhost';
+$database = 'MetroVOD';
+$user_name = 'root';
+$password = 'root';
+
+$dbh = null;
+try {
+  $dbh = new PDO("mysql:host=$host_name; dbname=$database;", $user_name, $password);
+ // echo "<p>Connexion au serveur MySQL établie avec succès via pdo.</p >";
+} catch (PDOException $e) {
+  echo "Erreur!: " . $e->getMessage() . "<br/>";
+  die();
+}
+
+$reponse = $dbh->query('SELECT * FROM film');
+
+// On affiche chaque entrée une à une
+while ($donnees = $reponse->fetch())
+{
+
+}
+
+$reponse->closeCursor(); // Termine le traitement de la requête
+
+?>
+
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
 
@@ -83,26 +116,6 @@
           <li><a href="#">DC</a></li>
           <li><a href="#">Excu MetroVOD</a></li>
         </ul>
-      </div>
-
-      <div class="navigation_film col s10 grey darken-3">
-
-        <h4 class="action center align white-text grey darken-4">Action</h4>
-        <div class="center align row top_3 grey darken-3">
-          <a><img id="#" class="img_max" src="img/cover_avatar.jpg"></a>
-          <a><img id="#" class="img_max" src="img/cover_avatar.jpg"></a>
-          <a><img id="#" class="img_max" src="img/cover_avatar.jpg"></a>
-          <a><img id="#" class="img_max" src="img/cover_avatar.jpg"></a>
-
-          <h4 class="action center align white-text grey darken-4">Horeur</h4>
-          <div class="center align row top_3 grey darken-3">
-            <a><img id="#" class="img_max" src="img/cover_avatar.jpg"></a>
-            <a><img id="#" class="img_max" src="img/cover_avatar.jpg"></a>
-            <a><img id="#" class="img_max" src="img/cover_avatar.jpg"></a>
-            <a><img id="#" class="img_max" src="img/cover_avatar.jpg"></a>
-          </div>
-
-        </div>
       </div>
     </div>
   </main>
