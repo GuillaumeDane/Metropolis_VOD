@@ -1,36 +1,3 @@
-<?php
-
-###########################################
-############ PDO-Extension #############
-###########################################
-
-
-$host_name = 'localhost';
-$database = 'MetroVOD';
-$user_name = 'root';
-$password = 'root';
-
-$dbh = null;
-try {
-  $dbh = new PDO("mysql:host=$host_name; dbname=$database;", $user_name, $password);
- // echo "<p>Connexion au serveur MySQL établie avec succès via pdo.</p >";
-} catch (PDOException $e) {
-  echo "Erreur!: " . $e->getMessage() . "<br/>";
-  die();
-}
-
-$reponse = $dbh->query('SELECT * FROM film');
-
-// On affiche chaque entrée une à une
-while ($donnees = $reponse->fetch())
-{
-
-}
-
-$reponse->closeCursor(); // Termine le traitement de la requête
-
-?>
-
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
 
