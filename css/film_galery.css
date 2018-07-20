@@ -34,6 +34,32 @@ h3 {
   margin: 20px 40px;
 }
 
+/* ==== Film Focus ==== */
+
+#film_focus_Avatar, #film_focus_Avicii, #film_focus_Avengers {
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+}
+
+/* ==== Wall Focus ==== */
+
+.wall_avatar, .wall_avicii, .wall_avengers {
+  background-position: center;
+  background-size: cover;
+}
+
+.wall_avatar{
+  background-image: url(../img/Avatar_Wall.jpg);
+}
+
+.wall_avicii{
+  background-image: url(../img/avicii_wall.jpg);
+}
+
+.wall_avengers{
+  background-image: url(../img/avengers_wall.jpg);
+}
+
 .img_max_more {
   max-width: 500px;
   max-height: 700px;
@@ -45,9 +71,7 @@ h3 {
   padding: 10px;
 }
 
-#film_focus_Avatar {
-  display: none;
-}
+
 
 .actors {
   margin: 20px;

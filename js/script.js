@@ -14,8 +14,18 @@ $('#button-cree').click(function(){
       $('#form2').toggle();
       });
 
+// Clic Focus
+
 $('#Avatar').click(function(){
       $('#film_focus_Avatar').toggle();
+      });
+
+$('#Avicii').click(function(){
+      $('#film_focus_Avicii').toggle();
+      });
+
+$('#Avengers').click(function(){
+      $('#film_focus_Avengers').toggle();
       });
 
 // Hamburger
